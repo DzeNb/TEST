@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My first page</title>   
+        <title>My first page</title>
+        <meta charset="UTF-8"/>  
+        <link rel="stylesheet" href="#" /> 
     </head>
     <body>
         <div class="wrapper">
-           <header class="header">
+           <header class="headerLogo">
                <div class="logo">
-                   <img src="#" alt="logo">
+                   <img src="images/HTML5.png" alt="logo" style="width: 100px">
                </div>
             <h1>My header</h1>
             <div class="headerNav">
@@ -52,12 +54,58 @@
                 <h3>My main section</h3> 
                 <div class="wrapperArticles"></div>
                 <article>
-                    My article one
-                </article>   
+                        <div class="ArticleHead">
+                        <p class="ArticleTitle">My article one</p>
+                        </div>
+                        <div class="ArticleBody">
+                            <table border="5" margin="0" padding="0">
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Time</td>
+                                    <td>Date</td>
+                                </tr>
+                                <tr>
+                                    <td>Dmitro</td>
+                                    <td>15:30</td>
+                                    <td>10.10.2017</td>
+                                </tr>
+                                <tr>
+                                        <td>Alexander</td>
+                                        <td>16:45</td>
+                                        <td>10.09.2017</td>
+                                    </tr>
+                            </table>
+                            <p>Речь идёт об игре, которую можно бесплатно скачать на смартфон или планшет в Google Play. 
+                            В ней якобы милая поняшка сначала мирно скачет по полянке, предлагая выполнять различные задания, 
+                            а потом просит ребёнка залезть на подоконник и ни в коем случае не рассказывать об этом маме.</p>
+                            <div class="ArticleFooter">
+                                <p class="date">10.10.2017</p>
+                                <a href="#">More link</a>
+                            </div> 
+                        </div> 
+                </article> 
+                <article>
+                        My article two
+                </article>  
             </main>   
             </section>
             <footer class="footer">
-                <h4>Footer</h4>
+                    <div class="leftCol">
+                    <div class="footerLogo">
+                        <img src="images/HTML5.png" alt="footerLogo" style="width: 100px"></div>
+                    </div>
+                    <div class="RightCol">
+                        <p class="phone">
+                            <span>Phone:</span>(069)-458-79-73
+                        </p>
+                        <p class="phone">
+                            <span>Phone:</span>(078)-498-79-75
+                        </p>
+                        <p class="phone">
+                            <span>Phone:</span>(073)-358-91-53
+                        </p>                   
+                    </div>
+                
             </footer>
         </div>      
     </body>
